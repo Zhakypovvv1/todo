@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.output > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+input{
+    padding: 8px 30px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    border-color: crimson;
+}
+
+button{
+    background-color: brown;
+    color: #fff;
+    padding: 8px 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+p{
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+span{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #363636;
+}
+
+.output > div a{
+    padding: 5px 0;
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+}
+
+.active{
+    background-color: crimson;
+}
